@@ -14,7 +14,7 @@ void CoffeeMachine::addRawMaterialsToInventory(std::vector<RawMaterial>& rawMate
 void CoffeeMachine::serveBeverage(Beverage beverage){
 	// TODO: currently we are allowing all the threads, we should restrict 
 	// threads to no.of outlets, so we will also be knowing at which outlet we are serving the beverage.
-	// we can implement using counting seamphore.
+	// we can implement using counting semaphore.
 
 	//P(outletNum)
 	inventory.prepareBeverage(beverage);

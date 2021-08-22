@@ -4,7 +4,6 @@
 
 #include <thread>
 #include "../inventory/inventory.h"
-#include <semaphore>
 
 class CoffeeMachine
 {
